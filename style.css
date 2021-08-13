@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(51,51,51,255);
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#top{
+    font-size: 4rem;
+    color:white;
+    padding: 1rem;
+    font-weight:500;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.sidenav {
+    background-color:rgba(221,221,221,255);
+    padding: 30px;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+  /* The navigation menu links */
+.sidenav button {
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    width:300px;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav button:hover {
+    color: white;
+    background-color: rgba(51,51,51,255);
+  }
+
+.containerss{
+display: grid;
+min-height: 100vh;
+grid-template-rows: repeat(7,1fr);
+grid-template-columns: repeat(5,1fr);
+
+}
+  
+.main{
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background-color: rgba(238,238,238,255);
+    padding: 60px 280px;
+}
+.main h2{
+    font-weight: 650;
+    font-size: 2.75rem;
+}
+.content{
+    margin: 40px 0px;
+
+}
+.box{
+    font-size: 1.4rem;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.notee{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.add-button{
+    padding: 10px 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: left !important;
+    border-radius: 15px;
+}
+.add-button:hover{
+    background-color: rgba(221,221,221,255);
+}
+.fa-plus,.fa-star{
+    margin-right: 15px;
+}
+.btn-danger{
+    padding: 7px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 20px 0px;
+    float: right;
+}
+.btn-success{
+    padding: 7px;
+    font-size: 1.3rem;
+    margin: 20px 0px;
+    font-weight: 500;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+/* box index and note */
+.box:hover{
+    background-color: rgba(221,221,221,255);
+}
