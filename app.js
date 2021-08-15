@@ -78,26 +78,9 @@ const addbtn=document.querySelector(".add-btn");
 addbtn.addEventListener("click",e=>{
     
     const formElement=createFormElement();
-    contentElement.insertBefore(formElement,addbtn);
+    contentElement.appendChild(formElement);
 });
 
 clearBtn.addEventListener("click",e=>{
     contentElement.innerHTML = "";
-
-    const addElementBtn = document.createElement("button");
-    addElementBtn.classList.add("btn");
-    addElementBtn.classList.add("text-left");
-    addElementBtn.classList.add("add-btn");
-    addElementBtn.classList.add("add-button");
-
-    const iconElement = document.createElement("i")
-    iconElement.classList.add("fa");
-    iconElement.classList.add("fa-plus");
-    iconElement.setAttribute("aria-hidden","true");
-
-    addElementBtn.appendChild(iconElement);
-    addElementBtn.appendChild(document.createTextNode("ADD TASK"));
-
-    contentElement.appendChild(addElementBtn);
-
 });
