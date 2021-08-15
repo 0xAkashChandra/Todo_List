@@ -30,7 +30,7 @@ nav{
     padding: 10px;
     display: block;
     border-radius: 10px;
-    width:300px;
+    
     font-size: 1.5rem;
     margin: 20px;
 }
@@ -43,8 +43,7 @@ nav{
 
 .containerss{
 display: grid;
-min-height: 100vh;
-grid-template-rows: repeat(7,1fr);
+grid-template-rows: repeat(7,108px);
 grid-template-columns: repeat(5,1fr);
 
 }
